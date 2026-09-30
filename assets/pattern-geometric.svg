@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" fill="none">
+  <!-- Subtle repeating geometric lines and circles inspired by the Unique Spaces logo -->
+  <defs>
+    <linearGradient id="patGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7B529E" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#4A256E" stop-opacity="0.04" />
+    </linearGradient>
+  </defs>
+
+  <!-- Concentric Rings -->
+  <circle cx="60" cy="60" r="50" stroke="#7B529E" stroke-opacity="0.08" stroke-width="1" stroke-dasharray="4 4" fill="none"/>
+  <circle cx="60" cy="60" r="36" stroke="#8E6BB8" stroke-opacity="0.07" stroke-width="1" fill="none"/>
+  <circle cx="60" cy="60" r="22" stroke="#C5A059" stroke-opacity="0.09" stroke-width="1" fill="none"/>
+  <circle cx="60" cy="60" r="8" fill="url(#patGrad)"/>
+
+  <!-- Corner Quarter Arcs -->
+  <path d="M0,0 Q60,0 60,60" stroke="#7B529E" stroke-opacity="0.05" stroke-width="1" fill="none"/>
+  <path d="M120,0 Q60,0 60,60" stroke="#7B529E" stroke-opacity="0.05" stroke-width="1" fill="none"/>
+  <path d="M0,120 Q60,120 60,60" stroke="#7B529E" stroke-opacity="0.05" stroke-width="1" fill="none"/>
+  <path d="M120,120 Q60,120 60,60" stroke="#7B529E" stroke-opacity="0.05" stroke-width="1" fill="none"/>
+
+  <!-- Intersection Grid Dots -->
+  <circle cx="0" cy="0" r="2.5" fill="#8E6BB8" fill-opacity="0.08"/>
+  <circle cx="120" cy="0" r="2.5" fill="#8E6BB8" fill-opacity="0.08"/>
+  <circle cx="0" cy="120" r="2.5" fill="#8E6BB8" fill-opacity="0.08"/>
+  <circle cx="120" cy="120" r="2.5" fill="#8E6BB8" fill-opacity="0.08"/>
+  <circle cx="60" cy="60" r="2" fill="#C5A059" fill-opacity="0.12"/>
+</svg>
